@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto; 
+	padding: 2em;
+}
+h1{
+     color: white; 
+}
+
+.row{
+	padding: 1rem;
+}
+
+.barra{
+	background-color: #FF266E;
+}
+.cajaborde{
+	border-style: solid;
+	border-color: #FF266E;
+	height: 30vh;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 3;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Sobre mi*/
+.barraNaranja{
+      background-color: #FFD073;
+      text-align: center;
+}
+.cajabordeNaranja{
+	border-style: solid;
+	border-color: #FFD073;
+	height: 30vh;
+}
+h2{
+     color: white; 
+}
+/* Galeria*/
+.barraGaleria{
+      background-color: #FFB319;
+      text-align: center;
+}
+.cajabordeGaleria{
+	border-style: solid;
+	border-color: #FFB319;
+	height: 30vh;
+}
+/* Contactos*/
+.barracontactos{
+      background-color: #35FFC2;
+      text-align: center;
+}
+.cajabordecontactos{
+	border-style: solid;
+	border-color: #35FFC2;
+	height: 30vh;
+}
